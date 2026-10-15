@@ -1,0 +1,4 @@
+shadow() { cd ~/ShadowHunter && python ShadowHunter.py; cd - > /dev/null; }
+alias shadow="cd ~/ShadowHunter && python ShadowHunter.py"
+export PATH=$PATH:~/bin
+alias shadow="cd ~/ShadowHunter && python ShadowHunter.py"
