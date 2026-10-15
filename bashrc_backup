@@ -2,3 +2,7 @@ shadow() { cd ~/ShadowHunter && python ShadowHunter.py; cd - > /dev/null; }
 alias shadow="cd ~/ShadowHunter && python ShadowHunter.py"
 export PATH=$PATH:~/bin
 alias shadow="cd ~/ShadowHunter && python ShadowHunter.py"
+alias shadow="cd ~/ShadowHunter && python ShadowHunter.py"
+alias sh="cd ~/sherlock && python -m sherlock_project"
+alias hole="holehe"
+alias phone="phoneinfoga"
