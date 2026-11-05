@@ -1,8 +1,12 @@
-shadow() { cd ~/ShadowHunter && python ShadowHunter.py; cd - > /dev/null; }
-alias shadow="cd ~/ShadowHunter && python ShadowHunter.py"
-export PATH=$PATH:~/bin
-alias shadow="cd ~/ShadowHunter && python ShadowHunter.py"
+# ============================================================
+# اختصارات أدوات OSINT
+# ============================================================
 alias shadow="cd ~/ShadowHunter && python ShadowHunter.py"
 alias sh="cd ~/sherlock && python -m sherlock_project"
 alias hole="holehe"
 alias phone="phoneinfoga"
+alias whatb="cd ~/WhatBreach && python whatbreach.py"
+alias update-backup="~/backup_osint.sh"
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+alias shark="sharkit"
