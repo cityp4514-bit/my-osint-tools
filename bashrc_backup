@@ -10,3 +10,5 @@ alias update-backup="~/backup_osint.sh"
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 alias shark="sharkit"
+alias linux="proot-distro login ubuntu"
+alias linux="proot-distro login ubuntu"
