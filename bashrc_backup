@@ -14,3 +14,4 @@ alias linux="proot-distro login ubuntu"
 alias linux="proot-distro login ubuntu"
 alias email2phone="cd ~/osint_backup/email2phonenumber && python3 email2phonenumber.py"
 export PATH=$PATH:~/bin
+alias dash="~/osint_dashboard.sh"
