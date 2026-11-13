@@ -3,7 +3,7 @@
     "mode": "unauth"
   },
   "general": {
-    "autocert": true,
+    "autocert": false,
     "bind_ipv4": "",
     "dns_port": 8053,
     "domain": "local.test",
